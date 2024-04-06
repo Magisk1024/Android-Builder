@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Xiaomi5",
-      "repo": "hhttps://github.com/LineageOS/android_kernel_xiaomi_msm8996",
+      "repo": "https://github.com/LineageOS/android_kernel_xiaomi_msm8996",
       "branch": "lineage-20",
       "device": "gemini",
       "defconfig": "vendor/xiaomi/mi8996_defconfig"
