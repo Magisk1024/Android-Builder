@@ -9,12 +9,9 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/clang+llvm-14.0.6-aarch64-linux-gnu.tar.xz",
-        "branch": "lineage-20.0",
         "name": "clang",
-        "binaryEnv": [
-          "bin"
-        ]
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/clang+llvm-14.0.6-aarch64-linux-gnu.tar.xz",
+        "binaryEnv": ["./bin"]
       },
       {
         "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9",
