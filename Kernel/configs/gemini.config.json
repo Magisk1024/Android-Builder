@@ -5,12 +5,12 @@
       "repo": "https://github.com/LineageOS/android_kernel_xiaomi_msm8996",
       "branch": "lineage-20",
       "device": "gemini",
-      "defconfig": "vendor/xiaomi/mi8996_defconfig"
+      "defconfig": "vendor/xiaomi/gemini.config"
     },
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
+        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
+        "branch": "lineage-20.0",
         "name": "clang",
         "binaryEnv": [
           "bin"
