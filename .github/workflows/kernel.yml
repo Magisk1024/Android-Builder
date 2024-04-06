@@ -158,6 +158,9 @@ jobs:
                 *.zip)
                   unzip -d $toolchain_name "$filename"
                   ;;
+                *.tar.xz)
+                  tar zxvf "$filename" -C $toolchain_name
+                  ;;
                 *.tar)
                   tar xvf "$filename" -C $toolchain_name
                   ;;
