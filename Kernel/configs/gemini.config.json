@@ -9,10 +9,11 @@
     },
     "toolchains": [
       {
-        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/clang+llvm-14.0.6-x86_64-linux-gnu-rhel-8.4.tar.xz",
+        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone",
         "name": "clang",
+        "branch": "14",
         "binaryEnv": [
-          "clang+llvm-14.0.6-x86_64-linux-gnu-rhel-8.4/bin"
+          "bin"
         ]
       },
       {
