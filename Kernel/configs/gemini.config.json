@@ -9,7 +9,7 @@
     },
     "toolchains": [
       {
-        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.2/clang+llvm-18.1.2-aarch64-linux-gnu.tar.xz",
+        "url": "https://github.com/kdrag0n/proton-clang/archive/refs/tags/20210522.zip",
         "name": "clang",
         "binaryEnv": [
           "bin"
