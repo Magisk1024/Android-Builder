@@ -9,7 +9,8 @@
     },
     "toolchains": [
       {
-        "url": "https://github.com/kdrag0n/proton-clang/archive/refs/tags/20210522.zip",
+        "repo": "https://github.com/kdrag0n/proton-clang",
+        "branch": "master",
         "name": "clang",
         "binaryEnv": [
           "bin"
